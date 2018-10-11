@@ -1,12 +1,13 @@
-# React Tailwind Emotion Starter
+# React Ululatrip Website Project
 
 This project is based on [create-react-app](https://github.com/facebook/create-react-app).
 
 ## Usage
 
 ```
-git clone https://github.com/muhajirframe/react-tailwind-emotion-starter
-cd react-tailwidn-emotion-starter
+git clone https://github.com/UlulatripProject/ululatripweb.git
+cd ululatripweb
+npm i
 ```
 
 ### Development
@@ -26,17 +27,7 @@ npm run build
 - Add globals to eslint. So we can use `tw` globally.
 - tailwind configuration is located in `src/tailwind.js`. Because `create-react-app` doesn't support importing file from outside `src`
 
-## For more information
-
-- [Create React App](https://github.com/facebook/create-react-app)
-
 ## Contributing
 
-- Got a question? [Submit an issue](https://github.com/muhajirframe/react-tailwind-emotion-starter/issues/new)
+- Got a question? [Submit an issue](https://github.com/UlulatripProject/ululatripweb/issues)
 - Make a pull request
-
-## Related
-
-- (vscode-tailwind-styled-snippets)[https://github.com/muhajirframe/vscode-tailwind-styled-snippets]. If you're a Visual Studio Code. This plugin will definitely help. It was build with `babel-plugin-tailwind-component` + `react-emotion`/`styled-components` in mind
-
-**Enjoy!**
