@@ -1,0 +1,47 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background: #fff;
+}
+
+.slides {
+  border-radius: 10px;
+}
+
+.show-index.is-dot {
+  color: #fff;
+  position: absolute;
+  bottom: -30px;
+  z-index: 100;
+  left: 40%;
+  font-size: 28px;
+  font-family: 'Slabo 27px', serif;
+  display: flex;
+}
+
+.show-index.is-dot .dot {
+  width: 10px;
+  height: 10px;
+  margin: 0 3px 3rem 3px;
+  background-color: #fd7575;
+  border-radius: 50%;
+  opacity: 0.5;
+}
+
+.show-index.is-dot .dot.is-active {
+  opacity: 1;
+}
+
+.btn-arrow {
+  margin-top: -35px;
+}
+
+.btn-arrow.btn-arrow-left {
+  left: -3%;
+}
+
+.btn-arrow.btn-arrow-right {
+  right: -3%;
+}
+

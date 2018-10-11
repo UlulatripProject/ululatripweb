@@ -1,0 +1,241 @@
+@font-face {
+  font-family: 'Astronout';
+  src: url('../assets/fonts/Astronout.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Eina03-Bold';
+  src: url('../assets/fonts/Eina03-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Eina03-BoldItalic';
+  src: url('../assets/fonts/Eina03-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Eina03-light';
+  src: url('../assets/fonts/Eina03-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Eina03-lightItalic';
+  src: url('../assets/fonts/Eina03-LightItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Eina03';
+  src: url('../assets/fonts/Eina03-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Eina03-italic';
+  src: url('../assets/fonts/Eina03-RegularItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Eina03-SemiBold';
+  src: url('../assets/fonts/Eina03-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Eina03-SemiBoldItalic';
+  src: url('../assets/fonts/Eina03-SemiboldItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('../assets/fonts/SF-Pro-Display-Medium.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'SF Pro Txt';
+  src: url('../assets/fonts/SF-Pro-Text-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'SF Pro Med';
+  src: url('../assets/fonts/SF-Pro-Text-Medium.otf') format('opentype');
+}
+
+.bigtitle {
+  font-family: Eina03;
+  color: white;
+  font-size: 45px;
+  text-align: center;
+}
+
+.midtitle {
+  color: #d4d4d4;
+  font-family: Eina03;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.who {
+  font-family: Eina03;
+  font-size: 45px;
+  color: #4a4a4a;
+  text-align: center;
+}
+
+.or {
+  color: #4a4a4a;
+  font-family: 'SF Pro Display';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+}
+
+.headline {
+  color: #4a4a4a;
+  font-family: 'SF Pro Display';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+}
+
+.subline {
+  width: 290px;
+  color: #4a4a4a;
+  font-family: 'SF Pro Txt';
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: center;
+}
+
+.bigtitlegrey {
+  font-family: Eina03;
+  color: #4a4a4a;
+  font-size: 45px;
+  text-align: center;
+}
+
+.sub {
+  color: #9b9b9b;
+  font-family: 'SF Pro Txt';
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.head {
+  color: #4a4a4a;
+  font-family: 'SF Pro Txt';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.dest {
+  color: #fd7575;
+  font-family: 'SF Pro Txt';
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.pin {
+  font-family: 'SF Pro Txt';
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.name {
+  font-family: 'SF Pro Txt';
+  font-size: 15px;
+  color: #4a4a4a;
+}
+
+.num {
+  color: #ffffff;
+  font-family: 'SF Pro Display';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+}
+
+.namewhite {
+  color: #ffffff;
+  font-family: 'SF Pro Display';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.role {
+  color: #d4d4d4;
+  font-family: 'SF Pro Txt';
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.about {
+  color: #4a4a4a;
+  font-family: 'Eina03';
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.linkwhite {
+  color: #ffffff;
+  font-family: Eina03-SemiBold;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.descrip {
+  width: 640px;
+  color: #9b9b9b;
+  font-family: 'SF Pro Txt';
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: center;
+}
+
+.interest {
+  color: #ffffff;
+  font-family: 'Eina03';
+  font-size: 36px;
+  line-height: 49px;
+  text-align: center;
+}
+
+.footlink {
+  color: #4a4a4a;
+  font-family: 'SF Pro Txt';
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 30px;
+  text-align: center;
+}
+
+.pick {
+  color: #9b9b9b;
+  font-family: 'Eina03';
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.headlinelogin {
+  color: #4a4a4a;
+  font-family: Eina03;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.navWhite {
+  color: #ffffff;
+  font-family: 'Eina03-SemiBold';
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+}
