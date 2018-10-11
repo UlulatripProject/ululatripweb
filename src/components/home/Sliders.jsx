@@ -21,16 +21,16 @@ const Slideshows = () => {
         showArrows={true}
         autoplay
         useDotIndex
-        slideInterval={2000}
+        slideInterval={3000}
         defaultIndex={1}
         effect="left"
         height="200px"
         width="300px"
         style={{ slider }}
       >
-        <img src={travel} alt="travel" />
-        <img src={diving} alt="diving" />
-        <img src={walking} alt="walking" />
+        <img src={travel} alt="travel" width="100%"/>
+        <img src={diving} alt="diving" width="100%"/>
+        <img src={walking} alt="walking" width="100%"/>
       </Slideshow>
     </Container>
   )
