@@ -1,6 +1,7 @@
 # React Ululatrip Website Project
 
 This project is based on [create-react-app](https://github.com/facebook/create-react-app).
+Already configured with tailwind, react-motion- and styled-component.
 
 ## Usage
 
