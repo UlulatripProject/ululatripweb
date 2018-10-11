@@ -29,7 +29,7 @@ const Link = styled('div')`
   margin-right: 62px;
   cursor: pointer;
 
-  &:hover{
+  &:hover {
     text-decoration: underline;
   }
 `
@@ -46,7 +46,10 @@ const Footer = () => {
         <Link>F.A.Q</Link>
         <Link>Trips</Link>
       </LinkWrap>
-      <LinkWrap className="footlink" style={{ marginBottom: '24px', marginTop: '8px' }}>
+      <LinkWrap
+        className="footlink"
+        style={{ marginBottom: '24px', marginTop: '8px' }}
+      >
         <Link>Terms & Conditions</Link>
         <Link>Sitemap</Link>
         <Link>

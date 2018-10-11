@@ -28,9 +28,9 @@ const Slideshows = () => {
         width="300px"
         style={{ slider }}
       >
-        <img src={travel} alt="travel" width="100%"/>
-        <img src={diving} alt="diving" width="100%"/>
-        <img src={walking} alt="walking" width="100%"/>
+        <img src={travel} alt="travel" width="100%" />
+        <img src={diving} alt="diving" width="100%" />
+        <img src={walking} alt="walking" width="100%" />
       </Slideshow>
     </Container>
   )

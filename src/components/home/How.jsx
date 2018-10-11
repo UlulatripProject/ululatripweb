@@ -78,7 +78,8 @@ const How = () => {
           </center>
           <Headline className="headline">Trip Host</Headline>
           <Subline className="subline">
-            Trip hosts are those who create the different kind of unique trips to offer.
+            Trip hosts are those who create the different kind of unique trips
+            to offer.
           </Subline>
         </Column>
         <MidText className="or">Or</MidText>
@@ -88,7 +89,8 @@ const How = () => {
           </center>
           <Headline className="headline">Tripper</Headline>
           <Subline className="subline">
-            Trippers are those who seek for unique trips & different trips of a lifetime.
+            Trippers are those who seek for unique trips & different trips of a
+            lifetime.
           </Subline>
         </Column>
       </Row>

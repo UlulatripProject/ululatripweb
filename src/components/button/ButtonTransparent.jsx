@@ -22,7 +22,9 @@ const TransButton = styled('button')`
     background-color: ${theme.colors.primary};
   }
 `
-const ButtonTransparent = ({ text, onClick }) => <TransButton onClick={onClick}>{text}</TransButton>
+const ButtonTransparent = ({ text, onClick }) => (
+  <TransButton onClick={onClick}>{text}</TransButton>
+)
 
 ButtonTransparent.defaultProps = {
   text: 'SIGN UP',

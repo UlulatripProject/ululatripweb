@@ -23,7 +23,9 @@ const White = styled('button')`
   }
 `
 
-const ButtonWhite = ({ text, onClick }) => <White onClick={onClick}>{text}</White>
+const ButtonWhite = ({ text, onClick }) => (
+  <White onClick={onClick}>{text}</White>
+)
 
 ButtonWhite.defaultProps = {
   text: 'LEARN MORE',

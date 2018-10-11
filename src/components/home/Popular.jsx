@@ -155,7 +155,10 @@ class Popular extends Component {
       <Container>
         <BigTitle className="bigtitlegrey"> Popular Trip</BigTitle>
         <Row>
-          <Column onMouseEnter={this.handleMouseHover} onMouseLeave={this.handleMouseHover}>
+          <Column
+            onMouseEnter={this.handleMouseHover}
+            onMouseLeave={this.handleMouseHover}
+          >
             <Slideshows />
             <Sub className="sub">Fish Watching</Sub>
             <Head className="head">Walk on The Water</Head>
@@ -166,12 +169,18 @@ class Popular extends Component {
             <Pin className="pin">
               <MdAccessTime /> 1 Day
             </Pin>
-            <Pin className="pin" style={{ marginTop: '10px', marginBottom: '10px' }}>
+            <Pin
+              className="pin"
+              style={{ marginTop: '10px', marginBottom: '10px' }}
+            >
               Rp200.0000 per orang
             </Pin>
             {this.state.isHovering && <AllHover />}
           </Column>
-          <Column onMouseEnter={this.handleMouseHover2} onMouseLeave={this.handleMouseHover2}>
+          <Column
+            onMouseEnter={this.handleMouseHover2}
+            onMouseLeave={this.handleMouseHover2}
+          >
             <Slideshows />
             <Sub className="sub">Fish Watching</Sub>
             <Head className="head">Walk on The Water</Head>
@@ -182,7 +191,10 @@ class Popular extends Component {
             <Pin className="pin">
               <MdAccessTime /> 1 Day
             </Pin>
-            <Pin className="pin" style={{ marginTop: '10px', marginBottom: '10px' }}>
+            <Pin
+              className="pin"
+              style={{ marginTop: '10px', marginBottom: '10px' }}
+            >
               Rp200.0000 per orang
             </Pin>
             {this.state.isHovering2 && <AllHover />}

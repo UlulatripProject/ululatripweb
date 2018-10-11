@@ -1,6 +1,11 @@
 import React from 'react'
 import styled from 'react-emotion'
-import { FaInstagram, FaFacebookSquare, FaLine, FaWhatsapp } from 'react-icons/fa'
+import {
+  FaInstagram,
+  FaFacebookSquare,
+  FaLine,
+  FaWhatsapp,
+} from 'react-icons/fa'
 import theme from '../../styles/constants'
 import logopink from '../../assets/icons/logo/UluPink.png'
 
@@ -74,8 +79,10 @@ const About = () => {
         <LogoPink src={logopink} />
       </WrapperLogo>
       <Description className="descrip">
-        Ululatrip is an experience-based travel marketplace that connects Tripper and Trip Host to explore Indonesia
-        through an unique, different trips. You’ll find a wide selection of unique trips, crafted by Trip Hosts.
+        Ululatrip is an experience-based travel marketplace that connects
+        Tripper and Trip Host to explore Indonesia through an unique, different
+        trips. You’ll find a wide selection of unique trips, crafted by Trip
+        Hosts.
       </Description>
       <SocialIcons />
     </Container>
