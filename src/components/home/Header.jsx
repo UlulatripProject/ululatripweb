@@ -13,6 +13,8 @@ const Container = styled('div')`
 `
 const BackgroundImage = styled('img')`
   position: absolute;
+  width: 100%;
+  max-height: fit-content;
 `
 
 const BigTitle = styled('div')`

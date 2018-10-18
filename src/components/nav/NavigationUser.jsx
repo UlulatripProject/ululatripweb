@@ -9,10 +9,10 @@ import Signup from '../signup/signup'
 const Container = styled('div')`
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   z-index: 20;
   position: absolute;
   top: 0;
+  width: 100%;
 `
 const ContainerLeft = styled('ul')`
   display: flex;
