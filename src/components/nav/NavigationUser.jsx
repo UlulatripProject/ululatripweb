@@ -5,6 +5,7 @@ import logopink from '../../assets/icons/logo/UluPink.png'
 import Button from '../button/ButtonTransparent'
 import Signup from '../signup/signup'
 
+
 const Container = styled('div')`
   display: flex;
   flex-direction: row;
@@ -13,7 +14,7 @@ const Container = styled('div')`
   position: absolute;
   top: 0;
 `
-const ContainerLeft = styled('div')`
+const ContainerLeft = styled('ul')`
   display: flex;
   flex: 1;
   height: 100px;
@@ -22,9 +23,10 @@ const ContainerLeft = styled('div')`
   flex-direction: row;
   position: relative;
   padding-left: 32px;
+  list-style-type: none;
 `
 
-const ContainerRight = styled('div')`
+const ContainerRight = styled('ul')`
   display: flex;
   flex: 1;
   height: 100px;
@@ -33,15 +35,16 @@ const ContainerRight = styled('div')`
   flex-direction: row;
   position: relative;
   padding-right: 32px;
+  list-style-type: none;
 `
 const LogoPink = styled('img')`
   cursor: pointer;
   margin-right: 40px;
 `
 
-const NavLink = styled('div')`
+const NavLink = styled('li')`
   cursor: pointer;
-  margin-right: 50px;
+  margin-right: 40px;
 
   &:hover {
     color: ${theme.colors.primary};
