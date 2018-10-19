@@ -1,6 +1,7 @@
 import React from 'react'
 import Rodal from 'rodal'
 import styled from 'react-emotion'
+import theme from '../../styles/constants'
 
 // include styles
 import 'rodal/lib/rodal.css'
@@ -29,7 +30,7 @@ class Signup extends React.Component {
     return (
       <div>
         <Rodal visible={this.state.visible} onClose={this.hide.bind(this)}>
-          <Header className="header">Register</Header>
+          <Header className="register">Register</Header>
         </Rodal>
       </div>
     )

@@ -10,6 +10,7 @@ const Style = styled('button')`
   color: ${theme.colors.white};
   font-family: 'SF Pro Display';
   font-size: 14px;
+  cursor: pointer;
 
   &:hover {
     color: ${theme.colors.primary};
