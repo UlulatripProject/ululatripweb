@@ -14,6 +14,7 @@ const Pink = styled('button')`
   font-weight: 500;
   line-height: 21px;
   text-align: center;
+  cursor: pointer;
 
   &:hover {
     color: ${theme.colors.primary};

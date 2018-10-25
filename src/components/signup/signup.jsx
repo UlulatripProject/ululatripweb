@@ -6,8 +6,10 @@ import theme from '../../styles/constants'
 // include styles
 import 'rodal/lib/rodal.css'
 
-const Header = styled('div')``
-
+const Header = styled('div')`
+  margin-bottom: 32px;
+`
+const SecondHeader = styled('div')``
 class Signup extends React.Component {
   constructor(props) {
     super(props)
@@ -29,8 +31,15 @@ class Signup extends React.Component {
   render() {
     return (
       <div>
-        <Rodal visible={this.state.visible} onClose={this.hide.bind(this)}>
+        <Rodal
+          visible={this.state.visible}
+          onClose={this.hide.bind(this)}
+          width={625}
+        >
           <Header className="register">Register</Header>
+          <SecondHeader className="registerline">
+            Register so you can feel the best experience with Ululatrip.
+          </SecondHeader>
         </Rodal>
       </div>
     )

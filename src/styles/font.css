@@ -240,10 +240,19 @@
   text-align: center;
 }
 
-.register{
+.register {
   color: #4a4a4a;
   font-family: 'Eina03';
   font-size: 34px;
   line-height: 51px;
+  text-align: center;
+}
+
+.registerline {
+  height: 21px;
+  color: #4a4a4a;
+  font-family: 'SF Pro Txt';
+  font-size: 14px;
+  line-height: 21px;
   text-align: center;
 }

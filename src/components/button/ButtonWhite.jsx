@@ -15,6 +15,7 @@ const White = styled('button')`
   line-height: 21px;
   text-align: center;
   background-color: ${theme.colors.white};
+  cursor: pointer;
 
   &:hover {
     color: ${theme.colors.white};
