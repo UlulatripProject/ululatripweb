@@ -256,3 +256,50 @@
   line-height: 21px;
   text-align: center;
 }
+
+.regbluebut {
+  font-family: 'SF Pro Display';
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  color: white;
+  background-color: #3c5193;
+}
+
+.regredbut {
+  font-family: 'SF Pro Display';
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  color: white;
+  background-color: #da4733;
+}
+
+.signupbut {
+  font-family: 'SF Pro Display';
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  color: white;
+  background-color: #FD7575;
+}
+
+.optionalreg {
+  color: #4a4a4a;
+  font-family: Eina03-SemiBold;
+  font-size: 16px;
+  line-height: 16px;
+}
+.form {
+  color: #4a4a4a;
+  font-family: 'SF Pro Txt';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+}
+.link{
+  font-family: 'SF Pro Txt';
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 30px;
+}

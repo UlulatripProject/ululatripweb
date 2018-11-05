@@ -3,7 +3,7 @@ import Rodal from 'rodal'
 import styled from 'react-emotion'
 import Grid from '@material-ui/core/Grid'
 import theme from '../../styles/constants'
-import Form from './Form'
+import Form from './FormSignin'
 import { TiSocialFacebook, TiSocialGooglePlus } from 'react-icons/ti'
 
 // include styles
@@ -18,7 +18,7 @@ const Button = styled.button`
   height: 40px;
   width: 225px;
   border-radius: 5px;
-  margin-top: 24px;
+  margin-top: 16px;
   cursor: pointer;
 `
 
@@ -49,7 +49,7 @@ const Link = styled.span`
   color: #fd7575;
 `
 
-class Signup extends React.Component {
+class Signin extends React.Component {
   constructor(props) {
     super(props)
     this.state = { visible: false }
@@ -74,14 +74,9 @@ class Signup extends React.Component {
           visible={this.state.visible}
           onClose={this.hide.bind(this)}
           width={625}
-          height={670}
+          height={550}
         >
-          <Header className="register">Sign Up</Header>
-          <SecondHeader className="registerline">
-            Register so you can feel the best{' '}
-            <span style={{ color: theme.colors.primary }}>experience</span> with
-            Ululatrip.
-          </SecondHeader>
+          <Header className="register">Sign In</Header>
           <Grid
             container
             direction="row"
@@ -96,7 +91,7 @@ class Signup extends React.Component {
                 justify="center"
               >
                 <TiSocialFacebook size={30} />
-                REGISTER WITH FACEBOOK
+                SIGN IN WITH FACEBOOK
               </Grid>
             </Button>
             <Button className="regredbut">
@@ -107,7 +102,7 @@ class Signup extends React.Component {
                 justify="center"
               >
                 <TiSocialGooglePlus size={30} />
-                REGISTER WITH GOOGLE
+                SIGN IN WITH GOOGLE
               </Grid>
             </Button>
           </Grid>
@@ -120,15 +115,15 @@ class Signup extends React.Component {
           >
             <Line />
             <SecondHeader className="optionalreg">
-              Or Register With Email
+              Or Sign In With Email
             </SecondHeader>
             <Line />
             <Form />
-            <ButtonSignUp className="signupbut">SIGN UP</ButtonSignUp>
+            <ButtonSignUp className="signupbut">SIGN IN</ButtonSignUp>
           </Grid>
           <Grid container direction="row" alignItems="center" justify="center">
             <HaveAccount className="link">
-              Already have an account? <Link>Sign In</Link>
+            Didn't have an account? <Link>Sign Up</Link>
             </HaveAccount>
           </Grid>
         </Rodal>
@@ -137,4 +132,4 @@ class Signup extends React.Component {
   }
 }
 
-export default Signup
+export default Signin
