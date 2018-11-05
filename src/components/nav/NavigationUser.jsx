@@ -3,7 +3,8 @@ import styled from 'react-emotion'
 import theme from '../../styles/constants'
 import logopink from '../../assets/icons/logo/UluPink.png'
 import Button from '../button/ButtonTransparent'
-import Signup from '../signup/signup'
+import Signup from '../signup/Signup'
+import Signin from '../signin/Signin'
 
 
 const Container = styled('div')`
@@ -56,7 +57,9 @@ class Navigation extends React.Component {
   onClick = () => {
     this.popup.show()
   }
-
+  onClicks = () => {
+    this.popups.show()
+  }
   render() {
     return (
       <Container>
@@ -67,7 +70,8 @@ class Navigation extends React.Component {
           <NavLink>About Us</NavLink>
         </ContainerLeft>
         <ContainerRight>
-          <NavLink className="navWhite">Sign In</NavLink>
+          <Signin onRef={ref=> (this.popups = ref)} />
+          <NavLink className="navWhite" onClick={this.onClicks}>Sign In</NavLink>
           <Signup onRef={ref => (this.popup = ref)} />
           <Button text="SIGN UP" onClick={this.onClick} />
         </ContainerRight>
